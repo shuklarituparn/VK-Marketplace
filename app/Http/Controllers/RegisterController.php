@@ -8,7 +8,7 @@ class RegisterController extends Controller
 {
     public function register_screen ()
     {
-        return view('register');
+        return view('auth.register');
     }
 
     public function register_user()

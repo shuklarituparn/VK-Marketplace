@@ -9,7 +9,7 @@ class LoginController extends Controller
     public function login_screen()
     {
         //show login screen
-        return view('login');
+        return view('auth.login');
     }
     public function login_user()
     {
