@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function get_category()
+    public function get_category($categoryID)
     {
         //get a given category
     }
